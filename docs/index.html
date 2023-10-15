@@ -3,73 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Page</title>
-    <link rel="icon" type="image" href="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/whatsapp.png">
+    <title>Task 15</title>
+    <style>
+        .form {
+            background-color: aliceblue;
+            width: fit-content;
+            padding: 50px;
+            margin: auto;
+            border-radius: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input {
+            padding: 14px 10px;
+            border-radius: 4cm;
+            display: inline;
+            border: solid 1px rgb(201, 191, 191);
+            margin: 10px;
+            width: 10cm;
+        }
+        .button{
+            padding: 14px 20px;
+            width: fit-content;
+            border-radius: 20%;
+            margin: auto;
+            font-size: 40px;
+        }
+
+    </style>
 </head>
-<body>
-    <h3>Task 9 (Favicon shown in the Tab)</h3>
-    <h1>Task 1</h1>
-    <div style="background-color: azure;">
-    <h1>Build.myweb</h1>
-    <h2>Build.myweb</h2>
-    <h3>Build.myweb</h3>
-    <h4>Build.myweb</h4>
-    <h5>Build.myweb</h5>
-    <h6>Build.myweb</h6>
+<body style="background-image: url(https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/wallpaper.png);
+           background-repeat: no-repeat;
+           background-size: cover;">
+    <div class="form">
+        <form>
+            <h1 style="text-align: center;">Sign Up</h1>
+            <label for="first-name">First name:<br></label>
+                <input type="text" placeholder="First name" name="name" id="first-name" /> <br> <br>
+            <label for="last-name">Last Name:</label><br>
+                 <input type="text" id="last-name" name="name" placeholder="Last name" /> <br><br>
+            <label for="dob">Date of Birth:</label><br>
+                 <input type="date" id="dob" name="dob"> <br><br>
+            <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" placeholder="Email" /><br><br>
+            <label for="password">Password</label><br>
+                  <input type="password" id="password" name="password" /><br><br>
+            <label for="confirm">Confirm Password:</label><br>
+                  <input type="password" id="confirm" name="password" />
+        </form>
     </div>
-    <h1>Task 2</h1>
-    <div style="background-color: beige;">
-        <p>The ol element defines an ordered list:</p>
-        <ol>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol>
-        <p>The ul element defines an unordered list:</p>
-        <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul>
-        <label for="designing">Do you like designing
-            <input type="text" id="designing" name="designing" required minlength="2" maxlength="3">
-        </label>
-        <p>
-        <label for="designing-checkbox">Do you like designing
-            <input type="checkbox" id="designing-checkbox" name="designing-checkbox">
-        </label> <br> <br>
-        <p>
-        <label for="description">Write a description:
-            <textarea id="description" name="description" style="height: 70px; width: 300px;"> </textarea>
-        </label>
-        <p>
-        <button>Submit</button>
-        </p>
-    </div>
-    <h1>Task 6</h1>
-    <div style="color: rgb(160, 211, 183);">
-        <center>
-            <img src="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/languages-programming-wallpaper-thumb.jpg" style="height: fit-content; width: fit-content;" alt="A computer display showing a bunch of javascript code">
-            <br> <br> <br>
-            <video controls width="450" autoplay muted loop src="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/flower.webm"></video>
-            <br> <br> <br>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=lds_DBvojmICniJf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </center>
-    </div>
-    <h1>Task 8</h1>
-    <div style="background-color: blanchedalmond;">
-        <a href="https://twitter.com">
-            <img src="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/twitter.png" style="height: fit-content; width: fit-content;" alt="Twitter logo">
-        </a>
-        <a href="https://instagram.com">
-        <img src="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/instagram.png" style="height: fit-content; width: fit-content; " alt="Instagram logo">
-        </a>
-        <a href="https://whatsapp.com">
-            <img src="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/whatsapp.png" style="height: fit-content; width: fit-content;" alt="Whatsapp logo">
-        </a>
-        <a href="https://youtube.com">
-            <img src="https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/youtube.png" style="height: fit-content; width: fit-content;" alt="Youtube logo">
-        </a>
+    <div class="button">
+        <input type="submit" value="Submit">
     </div>
 </body>
 </html>
