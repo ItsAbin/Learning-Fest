@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 15</title>
+    <style>
+        .form {
+            background-color: aliceblue;
+            width: fit-content;
+            padding: 50px;
+            margin: auto;
+            border-radius: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input {
+            padding: 14px 10px;
+            border-radius: 4cm;
+            display: inline;
+            border: solid 1px rgb(201, 191, 191);
+            margin: 10px;
+            width: 10cm;
+        }
+        .button{
+            padding: 14px 20px;
+            width: fit-content;
+            border-radius: 20%;
+            margin: auto;
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body style="background-image: url(https://raw.githubusercontent.com/ItsAbin/Learning-Fest/main/images/wallpaper.png);
+           background-repeat: no-repeat;
+           background-size: cover;">
+    <div class="form">
+        <form>
+            <h1 style="text-align: center;">Sign Up</h1>
+            <label for="first-name">First name:<br></label>
+                <input type="text" placeholder="First name" name="name" id="first-name" /> <br> <br>
+            <label for="last-name">Last Name:</label><br>
+                 <input type="text" id="last-name" name="name" placeholder="Last name" /> <br><br>
+            <label for="dob">Date of Birth:</label><br>
+                 <input type="date" id="dob" name="dob"> <br><br>
+            <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" placeholder="Email" /><br><br>
+            <label for="password">Password</label><br>
+                  <input type="password" id="password" name="password" /><br><br>
+            <label for="confirm">Confirm Password:</label><br>
+                  <input type="password" id="confirm" name="password" />
+        </form>
+    </div>
+    <div class="button">
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
