@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <h1>EMI Calculator</h1>
+    <script>
+        loan = prompt("Enter Loan Amount:");
+        rate = prompt ("Enter Intrest Rate:");
+        months = prompt("Enter Loan Tenure (In Months):");
+        loan_int = parseInt(loan);
+        rate_int = parseInt(rate);
+        months_int = parseInt(months);
+        interest = (loan_int * (rate_int * 0.01))/months_int;
+        total = ((loan_int/months_int) + interest);
+        total_round =  Math.round(total)
+        function EMI(){
+            return "EMI per month:" + total_round
+        }
+        alert(EMI())
+    </script>
+</body>
